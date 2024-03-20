@@ -1,0 +1,102 @@
+
+            <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css.css" />
+</head>
+<body>
+    <div class="navbar" id="myNavbar">
+        <a class="logo">🦠</a>
+        <a href="htm.html" class="active">Inicio </a>
+        <a href="AGRICULTURA.HTML">Agricultura</a>
+        <a href="medicina.html">Medicina</a>
+        <a href="Biorremediação.html">Biorremediação </a>
+        <a href="produçao.html">Produção de alimentos</a>
+        <a href="fontes.html">Fonte</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <div class="linha-texto">
+            <p>Importância das bactérias e suas funções
+                Toda a diversidade das bactérias também demonstra uma diversidade de funções. Vejamos a seguir:
+                </p>
+                
+                <p>Renovação de nitrogênio no ambiente. Na natureza, as bactérias participam do Ciclo do Nitrogênio, ajudando em diversas etapas.
+                    Produção de alimentos. As bactérias são utilizadas na fabricação de iogurtes, queijos e coalhadas, em que se utiliza os lactobacilos.
+                    Produção de remédios e suplementos. Na indústria farmacêutica, são produzidos antibióticos e vitaminas a partir de bactérias.
+                    Desenvolvimento da engenharia genética. É possível usar bactérias geneticamente modificadas para produzir proteínas humanas, como hormônio do crescimento e insulina.
+                    Biorremediação de ambientes. É possível introduzir bactérias do gênero Pseudomonas em ambientes poluídos para descontaminação. Esse processo recebe o nome de biorremediação, pois as bactérias agem oxidando compostos orgânicos nocivos e tornando-os inofensivos.
+                    Morfologia bacteriana e tipos de bactérias As bactérias podem apresentar diferentes formas: esféricas, de bastões, espiraladas, de vírgula, entre outras. Observe a seguir exemplos de bactérias e os formatos de cada ser.
+                    </p>
+
+                    <img class="foto1" src="img/foto1.jpg" alt="foto1" >
+                     <br>
+                     <div class="final">
+                    
+                <p>Conforme podemos observar na imagem, de acordo com a forma ou morfologia, as bactérias recebem uma designação específica:</p>
+                <br>
+  <p> •	Cocos: são esféricos ou arredondados;
+
+    <br>
+      •	Bacilos: são alongados e cilíndricos;
+      <br>
+      •	Espirilos: são longos, espiralados e deslocam-se por meio de flagelos;
+      <br>
+      •	Espiroquetas: são espiralados e deslocam-se com movimentos ondulatórios;
+      <br>
+      •	Vibriões: apresentam aspecto de vírgula.
+      <br> <p>
+ </div>
+ </div>
+
+
+ <footer >
+    <h1>Aluno:</h1>
+    <p>
+    Heitor Felix da Silva
+    </p>
+<br>
+<h1>professora:</h1>
+    <p>
+Dayane
+    </p>
+
+    <br>
+    <h1>Escola</h1>
+
+    <p>
+        Colégio Decisão
+    </p>
+    <br>
+ </footer>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myNavbar");
+            if (x.className === "navbar") {
+                x.className += " responsive";
+                fadeIn(x);
+            } else {
+                x.className = "navbar";
+            }
+        }
+    
+        function fadeIn(element) {
+            var op = 0.1;  // initial opacity
+            element.style.opacity = op;
+            var timer = setInterval(function () {
+                if (op >= 1){
+                    clearInterval(timer);
+                }
+                element.style.opacity = op;
+                op += op * 0.1;
+            }, 10);
+        }
+    </script>
+</body>
+</html>
+    
